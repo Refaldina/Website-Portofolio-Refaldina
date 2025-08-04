@@ -65,6 +65,7 @@ body {
     line-height: 1.6;
     color: #e0f7f1;
   }
+
   
   .btn-about {
     display: inline-block;
@@ -226,7 +227,7 @@ body {
   text-align: right;
 }
 
-.perjalanan.kiri .image {
+.perjalanan.kiri .image-kiri {
   order: 2;
   width: 45%;
 }
@@ -406,7 +407,7 @@ body {
     margin: 0 auto;
   }
   
-  .project-card {
+  .project-kotak {
     background: #f6f6f6;
     border-radius: 20px;
     overflow: hidden;
@@ -417,11 +418,11 @@ body {
     transition: transform 0.3s ease;
   }
   
-  .project-card:hover {
+  .project-kotak:hover {
     transform: translateY(20px);
   }
   
-  .project-card img {
+  .project-kotak img {
     width: 100%;
     height: auto;
     display: block;
@@ -477,3 +478,34 @@ body {
     font-size: 14px;
     font-family: 'Segoe UI', sans-serif;
 }
+
+    .image:hover{
+        transform: translateX(-5%);
+        
+    }
+
+    .image-kiri:hover{
+        transform: translateX(5%);
+    }
+
+    .image{
+        background: #f6f6f6;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 0.3s ease;
+    }
+
+    .image-kiri{
+        background: #f6f6f6;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 0.3s ease;
+    }
