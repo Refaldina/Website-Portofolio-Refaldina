@@ -66,6 +66,11 @@ body {
     color: #e0f7f1;
   }
 
+  .home-image {
+    padding-right: 2rem;
+    margin-bottom: 1rem;
+    align-content: right;
+  }
   
   .btn-about {
     display: inline-block;
