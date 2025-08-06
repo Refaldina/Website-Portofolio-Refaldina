@@ -71,6 +71,7 @@ body {
     margin-bottom: 1rem;
     align-content: right;
   }
+
   
   .btn-about {
     display: inline-block;
@@ -448,7 +449,7 @@ body {
     background-color: #238b6a;
   }
 
-  .projects-grid p {
+  .projects-grid center {
     color: #238b6a;
   }
 
@@ -470,7 +471,7 @@ body {
     margin-bottom: 20px;
   }
   
-  .closing-box p {
+  .closing-box center {
     font-size: 18px;
     line-height: 1.7;
   }
@@ -514,3 +515,5 @@ body {
         align-items: center;
         transition: transform 0.3s ease;
     }
+
+    
